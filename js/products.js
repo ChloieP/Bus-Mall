@@ -6,6 +6,11 @@ var container = document.getElementById('container');
 // What is the event handler
 function handleClick(event) {
   console.log('Yahoo!');
+  var target = event.target;
+  if (target.className === 'product'){
+    //SOMETHING
+    console.log(target.className);
+  }
 
 }
 //Add event handler to DOM
