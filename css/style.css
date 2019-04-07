@@ -5,7 +5,7 @@
   grid-gap: 10px;
 }
 
-.grid_cell, .product_cell {
+.grid_cell, .product_photo {
   background-color: lightblue;
   outline: 3px green solid;
 }
@@ -36,7 +36,7 @@
   grid-column-end: 7;
 }
 
-.product_cell {
+.product_photo {
   text-align: center;
 }
 
