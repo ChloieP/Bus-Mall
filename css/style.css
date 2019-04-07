@@ -1,11 +1,11 @@
 #container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 100px, 250px;
+  grid-template-rows: 100px 250px;
   grid-gap: 10px;
 }
 
-.grid-cell {
+.grid_cell, .product_cell {
   background-color: lightblue;
   outline: 3px green solid;
 }
@@ -33,14 +33,23 @@
 
 #results_list {
   grid-column-start: 4;
-  grid-column-end: 10;
+  grid-column-end: 7;
+
+}
+
+.product_cell {
+  text-align: center;
 }
 
 .product {
   width: auto;
   height: 100%;
+
+  /* position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%); */
 }
 
-.product-cell {
-  text-align: center;
-}
