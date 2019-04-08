@@ -127,7 +127,7 @@ var backgroundColors = [
 var datasetItem = {
   data: [10, 20, 40],
   backgroundColor: backgroundColors
-}
+};
 
 var data = {
   labels: ['red', 'blue', 'green'],
